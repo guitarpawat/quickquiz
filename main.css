@@ -1,0 +1,44 @@
+body {
+  background-color: rgba(77, 198, 224, 0.2);
+}
+body {
+  background-color: rgba(77, 198, 224, 0.65);
+}
+h1 {
+  margin: auto;
+  width: 75%;
+  padding: 7px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  color: rgb(25, 100, 150);
+}
+
+.button {
+  background-color: rgb(20, 141, 194);
+  border: 1.2px solid white;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  width: 120px;
+  height: 24px;
+  border-radius: 6px;
+}
+.field {
+  border: 1.8px solid rgb(20, 141, 194);
+  text-align: center;
+  height: 20px;
+  font-size: 16px;
+  color: rgb(20, 141, 194);
+}
+p {
+  text-align: center;
+  font-family: sans-serif;
+  color: rgb(37, 118, 255);
+}
+
+#credit {
+  font-family: monospace;
+  font-weight: bold;
+}
