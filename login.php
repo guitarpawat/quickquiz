@@ -22,6 +22,11 @@
   }
   </style>
 </head>
+<?php
+if(session_id() == '' || !isset($_SESSION)) {
+    session_start();
+}
+ ?>
 <body>
   <h1><?php echo "Welcome to ".$config['project_name'];?></h1>
   <div id="login">
@@ -40,7 +45,7 @@
   </div>
   <p id="credit">
     Written by @GuitarPawat<br />
-    Recommend to use on lastest version of Google Chrome and Microsoft Edge.
+    Recommend to use on lastest version of Google Chrome or Microsoft Edge.
   </p>
 </body>
 </html>
