@@ -1,9 +1,9 @@
-<!DOCTYPE HTML>
-<html>
-<head>
-  <noscript><meta http-equiv="refresh" content="0; url=noscript.html" /></noscript>
-  <script>window.location.replace('login.php');</script>
-</head>
-<body>
-</body>
-</html>
+  <?php
+  $session = include('data/session.php');
+  if($session['userid'] == NULL) {
+    header('Location: login.php'); exit();
+  }
+  else {
+    header('Location: /user/index.php'); exit();
+  }
+  ?>

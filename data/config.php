@@ -1,3 +1,5 @@
 <?php
-return array('project_name' => 'QuickQuiz');
+return array('project_name' => 'QuickQuiz',
+'regis_open' => true
+);
 ?>

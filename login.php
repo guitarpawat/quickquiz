@@ -1,7 +1,13 @@
 <!DOCTYPE HTML>
-<?php $config = include('data/config.php'); ?>
+<?php $config = include('data/config.php');
+$session = include('data/session.php');
+ ?>
 <html>
 <head>
+  <?php if($session['userid'] != NULL) {
+    header('Location: index.php'); exit();
+  }
+  ?>
   <noscript><meta http-equiv="refresh" content="0; url=noscript.html" /></noscript>
   <title><?php echo "Login :: ".$config['project_name'];?></title>
   <link rel="stylesheet" type="text/css" href="main.css">
@@ -22,11 +28,6 @@
   }
   </style>
 </head>
-<?php
-if(session_id() == '' || !isset($_SESSION)) {
-    session_start();
-}
- ?>
 <body>
   <h1><?php echo "Welcome to ".$config['project_name'];?></h1>
   <div id="login">

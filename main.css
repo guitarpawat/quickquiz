@@ -36,6 +36,11 @@ p {
 }
 
 #credit {
-  font-family: monospace;
+  font-size: 90%;
   font-weight: bold;
+}
+
+p.warning {
+  font-size: 80% !important;
+  color: darkred !important;
 }
