@@ -1,10 +1,11 @@
 <?php
 return array('server_host' => 'localhost',
-'username' => // sql username here,
-'password' => // sql password here
-'database' => // sql database name here,
+'username' => //db user here,
+'password' => //db password here,
+'database' => //db name here,
 'user_table' => 'UserInfo',
 'quiz_table' => 'Quiz',
+'choice_table' => 'Choices',
 'history_table' => 'History'
 );
 ?>

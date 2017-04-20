@@ -17,7 +17,7 @@ $session = include('data/session.php');
     margin: auto;
     width: 210px;
     border: 3px solid rgba(28, 180, 221, 1);
-    padding: 7px;
+    padding: 8.9px;
     text-align: center;
     font-family: sans-serif;
     font-weight: bold;
